@@ -1,0 +1,2261 @@
+[
+    {
+        "id": "0975a2b34062edd1",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "2c5fc53c29a84621",
+        "type": "tab",
+        "label": "LDR",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "35e1e32f.937e74",
+        "type": "tab",
+        "label": "Demo 1: Static",
+        "disabled": true,
+        "info": ""
+    },
+    {
+        "id": "5c66fca0.b4e21c",
+        "type": "tab",
+        "label": "Demo 2: dynamic",
+        "disabled": true,
+        "info": ""
+    },
+    {
+        "id": "ed34b63.0ee70c8",
+        "type": "tab",
+        "label": "Demo 3: dynamic growing",
+        "disabled": true,
+        "info": ""
+    },
+    {
+        "id": "f4b33934aafb48b0",
+        "type": "tab",
+        "label": "Experimento Seringa",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "2a3cd3ffbc077fc0",
+        "type": "tab",
+        "label": "Testes",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "3dbfab26abe327ac",
+        "type": "group",
+        "z": "2a3cd3ffbc077fc0",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "7c206088ceb8f30d",
+            "d4217bae8f95c23e",
+            "eebd85a7c61a79bd",
+            "88476bf5cc6a71dc",
+            "732fcb6b92c6670e",
+            "46de5501c102dbd5",
+            "817e7b683c32aece",
+            "ba4e55d55ab86f6a",
+            "65c732937ad560e7",
+            "db408e6b74063d0e",
+            "1b0a136d4af41e67",
+            "7472afc9fa263cb9",
+            "2c1b92616b9b54eb",
+            "15f03dab9528dc28",
+            "4c6f41338fc605d1"
+        ],
+        "x": 14,
+        "y": 59,
+        "w": 992,
+        "h": 322
+    },
+    {
+        "id": "1f0a02b2c6034031",
+        "type": "group",
+        "z": "f4b33934aafb48b0",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "bcb6d4d2291a8c1f",
+            "2cf3b8e743905631",
+            "610ddbe265fa7869",
+            "c19485e8506f3926",
+            "880437a8c535b495",
+            "422e1a0a5d119cb4",
+            "532096ac0259dee2",
+            "4ba6d3b11cf76b9c",
+            "60795a60515f9052",
+            "2f5f1c65a548ab47",
+            "01c34b18eeda0461",
+            "cf0d39f54a226c58",
+            "50f20671c1579c38",
+            "25bee730a89bea37",
+            "f8d3c8b9e9bc68c8",
+            "5d81aaffabcd378a",
+            "d2b0a01ec7fd05aa",
+            "9e41f773dcd5778b"
+        ],
+        "x": 34,
+        "y": 19,
+        "w": 1272,
+        "h": 442
+    },
+    {
+        "id": "f1a79ac3a2d2720f",
+        "type": "ui_tab",
+        "name": "Experimento Seringa",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "b6ce9d98ee6c7b63",
+        "type": "ui_tab",
+        "name": "Experimento",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "20da5e3b8d0c0223",
+        "type": "ui_group",
+        "name": "",
+        "tab": "f1a79ac3a2d2720f",
+        "order": 1,
+        "disp": true,
+        "width": "20",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "16e39261e2fa859f",
+        "type": "ui_group",
+        "name": "",
+        "tab": "e692860b9e5a9b25",
+        "order": 1,
+        "disp": true,
+        "width": 25,
+        "collapse": true,
+        "className": ""
+    },
+    {
+        "id": "2f724722c235a28d",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-dark",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#03203f",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#097479",
+                    "value": "#03203f",
+                    "edited": true
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#03203f",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#064588",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#555555",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#eeeeee",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#03203f",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "6dc59499f7e1b1db",
+        "type": "serial-port",
+        "serialport": "/dev/ttyACM0",
+        "serialbaud": "19200",
+        "databits": "8",
+        "parity": "none",
+        "stopbits": "1",
+        "waitfor": "m",
+        "dtr": "none",
+        "rts": "none",
+        "cts": "none",
+        "dsr": "none",
+        "newline": "0",
+        "bin": "bin",
+        "out": "time",
+        "addchar": "false",
+        "responsetimeout": "500"
+    },
+    {
+        "id": "132a028b2f532a71",
+        "type": "serial-port",
+        "serialport": "/dev/ttyACM0",
+        "serialbaud": "19200",
+        "databits": "8",
+        "parity": "none",
+        "stopbits": "1",
+        "waitfor": "",
+        "dtr": "none",
+        "rts": "none",
+        "cts": "none",
+        "dsr": "none",
+        "newline": "0",
+        "bin": "bin",
+        "out": "time",
+        "addchar": "false",
+        "responsetimeout": "500"
+    },
+    {
+        "id": "303c5947f8d6d9e6",
+        "type": "arduino-board",
+        "device": "/dev/ttyACM0"
+    },
+    {
+        "id": "95bb7e1c94cf668c",
+        "type": "remote-config",
+        "z": "f4b33934aafb48b0",
+        "name": "Node-RED UI",
+        "host": "localhost",
+        "protocol": "http",
+        "port": "1880",
+        "baseurl": "/ui",
+        "instancehash": "f3smxdkdp91zay8k4h1dxadfqm142iq06545qgpy2chysqjgrce28hl7y4h73qs6",
+        "server": "nodered04.remote-red.com",
+        "region": "us"
+    },
+    {
+        "id": "21fb4565.85565a",
+        "type": "ui_group",
+        "name": "demo 1",
+        "tab": "a4054538.f69598",
+        "order": 1,
+        "disp": false,
+        "width": "12",
+        "collapse": false
+    },
+    {
+        "id": "a4054538.f69598",
+        "type": "ui_tab",
+        "name": "Demo 1:  static",
+        "icon": "dashboard",
+        "order": 1
+    },
+    {
+        "id": "62e84868.707968",
+        "type": "ui_tab",
+        "name": "Demo 3: dynamic growing",
+        "icon": "dashboard",
+        "order": 3
+    },
+    {
+        "id": "ed68b86d.026b2",
+        "type": "ui_group",
+        "name": "demo 3",
+        "tab": "62e84868.707968",
+        "order": 1,
+        "disp": false,
+        "width": "12",
+        "collapse": false
+    },
+    {
+        "id": "5d771aac.b2fbac",
+        "type": "ui_tab",
+        "name": "Demo 2: dynamic",
+        "icon": "dashboard",
+        "order": 2
+    },
+    {
+        "id": "a1a4b9da.737a38",
+        "type": "ui_group",
+        "name": "demo 2",
+        "tab": "5d771aac.b2fbac",
+        "order": 1,
+        "disp": false,
+        "width": "12",
+        "collapse": false
+    },
+    {
+        "id": "d45cd91b99a171dc",
+        "type": "ui_group",
+        "name": "",
+        "tab": "305bd9bfaf136b1d",
+        "order": 2,
+        "disp": true,
+        "width": "25",
+        "collapse": true,
+        "className": ""
+    },
+    {
+        "id": "305bd9bfaf136b1d",
+        "type": "ui_tab",
+        "name": "Testes",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "0882fdaec06ddebe",
+        "type": "git-nodes-config",
+        "z": "2a3cd3ffbc077fc0",
+        "name": "node-red",
+        "git": "git@github.com:patryckadrien/node-red.git"
+    },
+    {
+        "id": "cb72a442d0f11eb0",
+        "type": "ui_spacer",
+        "z": "2a3cd3ffbc077fc0",
+        "name": "spacer",
+        "group": "d45cd91b99a171dc",
+        "order": 2,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "ab7a5f4c3833cc7b",
+        "type": "ui_spacer",
+        "z": "2a3cd3ffbc077fc0",
+        "name": "spacer",
+        "group": "d45cd91b99a171dc",
+        "order": 4,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "0f50a926f9c74886",
+        "type": "ui_spacer",
+        "z": "2a3cd3ffbc077fc0",
+        "name": "spacer",
+        "group": "d45cd91b99a171dc",
+        "order": 6,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "2ac5343eaf76b805",
+        "type": "ui_spacer",
+        "z": "2a3cd3ffbc077fc0",
+        "name": "spacer",
+        "group": "d45cd91b99a171dc",
+        "order": 8,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "8177a352046a8b6e",
+        "type": "ui_spacer",
+        "z": "2a3cd3ffbc077fc0",
+        "name": "spacer",
+        "group": "d45cd91b99a171dc",
+        "order": 9,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "392ae2e2be85e5dd",
+        "type": "ui_spacer",
+        "z": "2a3cd3ffbc077fc0",
+        "name": "spacer",
+        "group": "d45cd91b99a171dc",
+        "order": 10,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "afb69905087be307",
+        "type": "ui_spacer",
+        "z": "2a3cd3ffbc077fc0",
+        "name": "spacer",
+        "group": "d45cd91b99a171dc",
+        "order": 11,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "1d399e7a048d1dcb",
+        "type": "ui_spacer",
+        "z": "2a3cd3ffbc077fc0",
+        "name": "spacer",
+        "group": "d45cd91b99a171dc",
+        "order": 12,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "962d8760902094f2",
+        "type": "ui_spacer",
+        "z": "2a3cd3ffbc077fc0",
+        "name": "spacer",
+        "group": "d45cd91b99a171dc",
+        "order": 13,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "61d244f5e9024148",
+        "type": "ui_spacer",
+        "z": "2a3cd3ffbc077fc0",
+        "name": "spacer",
+        "group": "d45cd91b99a171dc",
+        "order": 14,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "ca589b664610a9d3",
+        "type": "ui_spacer",
+        "z": "2a3cd3ffbc077fc0",
+        "name": "spacer",
+        "group": "d45cd91b99a171dc",
+        "order": 15,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "2d315bf512acd958",
+        "type": "ui_spacer",
+        "z": "2a3cd3ffbc077fc0",
+        "name": "spacer",
+        "group": "d45cd91b99a171dc",
+        "order": 16,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "f35d15467d0a4440",
+        "type": "ui_spacer",
+        "z": "2a3cd3ffbc077fc0",
+        "name": "spacer",
+        "group": "d45cd91b99a171dc",
+        "order": 17,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "927da3afd324bb21",
+        "type": "ui_spacer",
+        "z": "2a3cd3ffbc077fc0",
+        "name": "spacer",
+        "group": "d45cd91b99a171dc",
+        "order": 18,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "892c611cc6c5cc42",
+        "type": "ui_spacer",
+        "z": "2a3cd3ffbc077fc0",
+        "name": "spacer",
+        "group": "d45cd91b99a171dc",
+        "order": 19,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "36def74dc720c44f",
+        "type": "ui_spacer",
+        "z": "2a3cd3ffbc077fc0",
+        "name": "spacer",
+        "group": "d45cd91b99a171dc",
+        "order": 20,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "bd48f312a9276988",
+        "type": "ui_spacer",
+        "z": "2a3cd3ffbc077fc0",
+        "name": "spacer",
+        "group": "d45cd91b99a171dc",
+        "order": 21,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "634816502e523cbd",
+        "type": "ui_spacer",
+        "z": "2a3cd3ffbc077fc0",
+        "name": "spacer",
+        "group": "d45cd91b99a171dc",
+        "order": 22,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "60e30d51bed7a9b8",
+        "type": "ui_spacer",
+        "z": "2a3cd3ffbc077fc0",
+        "name": "spacer",
+        "group": "d45cd91b99a171dc",
+        "order": 23,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "9c058bf697770228",
+        "type": "ui_spacer",
+        "z": "2a3cd3ffbc077fc0",
+        "name": "spacer",
+        "group": "d45cd91b99a171dc",
+        "order": 24,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "fc428f4de929bce1",
+        "type": "ui_spacer",
+        "z": "2a3cd3ffbc077fc0",
+        "name": "spacer",
+        "group": "d45cd91b99a171dc",
+        "order": 25,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "c199412f11f432ca",
+        "type": "ui_spacer",
+        "z": "2a3cd3ffbc077fc0",
+        "name": "spacer",
+        "group": "d45cd91b99a171dc",
+        "order": 26,
+        "width": 16,
+        "height": 1
+    },
+    {
+        "id": "82047d7dcafbb42d",
+        "type": "ui_spacer",
+        "z": "2a3cd3ffbc077fc0",
+        "name": "spacer",
+        "group": "d45cd91b99a171dc",
+        "order": 27,
+        "width": 25,
+        "height": 1
+    },
+    {
+        "id": "8b4c7b45789b4490",
+        "type": "ui_spacer",
+        "z": "2a3cd3ffbc077fc0",
+        "name": "spacer",
+        "group": "d45cd91b99a171dc",
+        "order": 28,
+        "width": 25,
+        "height": 1
+    },
+    {
+        "id": "07c094a5bdd9a459",
+        "type": "ui_spacer",
+        "z": "2a3cd3ffbc077fc0",
+        "name": "spacer",
+        "group": "d45cd91b99a171dc",
+        "order": 29,
+        "width": 25,
+        "height": 1
+    },
+    {
+        "id": "fc652f8e3cda4445",
+        "type": "ui_spacer",
+        "z": "2a3cd3ffbc077fc0",
+        "name": "spacer",
+        "group": "d45cd91b99a171dc",
+        "order": 30,
+        "width": 25,
+        "height": 1
+    },
+    {
+        "id": "2617dbb367b49b72",
+        "type": "ui_spacer",
+        "z": "2a3cd3ffbc077fc0",
+        "name": "spacer",
+        "group": "d45cd91b99a171dc",
+        "order": 31,
+        "width": 25,
+        "height": 1
+    },
+    {
+        "id": "faff72b8caff3dad",
+        "type": "ui_spacer",
+        "z": "2a3cd3ffbc077fc0",
+        "name": "spacer",
+        "group": "d45cd91b99a171dc",
+        "order": 32,
+        "width": 25,
+        "height": 1
+    },
+    {
+        "id": "52c366398365add5",
+        "type": "ui_spacer",
+        "z": "2a3cd3ffbc077fc0",
+        "name": "spacer",
+        "group": "d45cd91b99a171dc",
+        "order": 33,
+        "width": 25,
+        "height": 1
+    },
+    {
+        "id": "4429036ae60c5ffe",
+        "type": "remote-xy-dashboard",
+        "name": "",
+        "port": "6377",
+        "config": "/*\n   -- New project --\n   \n   This source code of graphical user interface \n   has been generated automatically by RemoteXY editor.\n   To compile this code using RemoteXY library 3.1.8 or later version \n   download by link http://remotexy.com/en/library/\n   To connect using RemoteXY mobile app by link http://remotexy.com/en/download/                   \n     - for ANDROID 4.11.1 or later version;\n     - for iOS 1.9.1 or later version;\n    \n   This source code is free software; you can redistribute it and/or\n   modify it under the terms of the GNU Lesser General Public\n   License as published by the Free Software Foundation; either\n   version 2.1 of the License, or (at your option) any later version.    \n*/\n\n//////////////////////////////////////////////\n//        RemoteXY include library          //\n//////////////////////////////////////////////\n\n// RemoteXY select connection mode and include library \n#define REMOTEXY_MODE__SOFTSERIAL\n#include <SoftwareSerial.h>\n\n#include <RemoteXY.h>\n\n// RemoteXY connection settings \n#define REMOTEXY_SERIAL_RX D1\n#define REMOTEXY_SERIAL_TX D2\n#define REMOTEXY_SERIAL_SPEED 9600\n\n\n// RemoteXY configurate  \n#pragma pack(push, 1)\nuint8_t RemoteXY_CONF[] =   // 27 bytes\n  { 255,0,0,15,0,20,0,16,31,1,68,17,15,26,32,36,8,36,67,4,\n  21,71,20,5,2,26,11 };\n  \n// this structure defines all the variables and events of your control interface \nstruct {\n\n    // output variables\n  float onlineGraph_1;\n  char text_1[11];  // string UTF8 end zero \n\n    // other variable\n  uint8_t connect_flag;  // =1 if wire connected, else =0 \n\n} RemoteXY;\n#pragma pack(pop)\n\n/////////////////////////////////////////////\n//           END RemoteXY include          //\n/////////////////////////////////////////////\n\n\n\nvoid setup() \n{\n  RemoteXY_Init (); \n  \n  \n  // TODO you setup code\n  \n}\n\nvoid loop() \n{ \n  RemoteXY_Handler ();\n  \n  \n  // TODO you loop code\n  // use the RemoteXY structure for data transfer\n  // do not call delay() \n\n\n}"
+    },
+    {
+        "id": "c6791699f7274e49",
+        "type": "remote-xy-dashboard",
+        "name": "",
+        "port": "6377",
+        "config": "/*\n   -- New project --\n   \n   This source code of graphical user interface \n   has been generated automatically by RemoteXY editor.\n   To compile this code using RemoteXY library 3.1.8 or later version \n   download by link http://remotexy.com/en/library/\n   To connect using RemoteXY mobile app by link http://remotexy.com/en/download/                   \n     - for ANDROID 4.11.1 or later version;\n     - for iOS 1.9.1 or later version;\n    \n   This source code is free software; you can redistribute it and/or\n   modify it under the terms of the GNU Lesser General Public\n   License as published by the Free Software Foundation; either\n   version 2.1 of the License, or (at your option) any later version.    \n*/\n\n//////////////////////////////////////////////\n//        RemoteXY include library          //\n//////////////////////////////////////////////\n\n// RemoteXY select connection mode and include library \n#define REMOTEXY_MODE__SOFTSERIAL\n#include <SoftwareSerial.h>\n\n#include <RemoteXY.h>\n\n// RemoteXY connection settings \n#define REMOTEXY_SERIAL_RX D1\n#define REMOTEXY_SERIAL_TX D2\n#define REMOTEXY_SERIAL_SPEED 9600\n\n\n// RemoteXY configurate  \n#pragma pack(push, 1)\nuint8_t RemoteXY_CONF[] =   // 27 bytes\n  { 255,0,0,15,0,20,0,16,31,1,68,17,15,26,32,36,8,36,67,4,\n  21,71,20,5,2,26,11 };\n  \n// this structure defines all the variables and events of your control interface \nstruct {\n\n    // output variables\n  float onlineGraph_1;\n  char text_1[11];  // string UTF8 end zero \n\n    // other variable\n  uint8_t connect_flag;  // =1 if wire connected, else =0 \n\n} RemoteXY;\n#pragma pack(pop)\n\n/////////////////////////////////////////////\n//           END RemoteXY include          //\n/////////////////////////////////////////////\n\n\n\nvoid setup() \n{\n  RemoteXY_Init (); \n  \n  \n  // TODO you setup code\n  \n}\n\nvoid loop() \n{ \n  RemoteXY_Handler ();\n  \n  \n  // TODO you loop code\n  // use the RemoteXY structure for data transfer\n  // do not call delay() \n\n\n}"
+    },
+    {
+        "id": "b4bf5ec7f5f5ca93",
+        "type": "ui_spacer",
+        "z": "f4b33934aafb48b0",
+        "name": "spacer",
+        "group": "20da5e3b8d0c0223",
+        "order": 2,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "3bfc18d9ab8372f7",
+        "type": "ui_spacer",
+        "z": "f4b33934aafb48b0",
+        "name": "spacer",
+        "group": "20da5e3b8d0c0223",
+        "order": 4,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "6ade8ef865b5b63f",
+        "type": "ui_spacer",
+        "z": "f4b33934aafb48b0",
+        "name": "spacer",
+        "group": "20da5e3b8d0c0223",
+        "order": 5,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "64e7693001e5446c",
+        "type": "ui_spacer",
+        "z": "f4b33934aafb48b0",
+        "name": "spacer",
+        "group": "20da5e3b8d0c0223",
+        "order": 6,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "568c4f71af492828",
+        "type": "ui_spacer",
+        "z": "f4b33934aafb48b0",
+        "name": "spacer",
+        "group": "20da5e3b8d0c0223",
+        "order": 8,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "186a4a82ed7e735c",
+        "type": "ui_spacer",
+        "z": "f4b33934aafb48b0",
+        "name": "spacer",
+        "group": "20da5e3b8d0c0223",
+        "order": 9,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "dcf7a93a29efbeb1",
+        "type": "ui_spacer",
+        "z": "f4b33934aafb48b0",
+        "name": "spacer",
+        "group": "20da5e3b8d0c0223",
+        "order": 10,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "2d1ef22040531be8",
+        "type": "ui_spacer",
+        "z": "f4b33934aafb48b0",
+        "name": "spacer",
+        "group": "20da5e3b8d0c0223",
+        "order": 11,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "260c15bfd76e2117",
+        "type": "ui_spacer",
+        "z": "f4b33934aafb48b0",
+        "name": "spacer",
+        "group": "20da5e3b8d0c0223",
+        "order": 12,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "9fd078f455d57c1a",
+        "type": "ui_spacer",
+        "z": "f4b33934aafb48b0",
+        "name": "spacer",
+        "group": "20da5e3b8d0c0223",
+        "order": 13,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "7c3b82f444441704",
+        "type": "ui_spacer",
+        "z": "f4b33934aafb48b0",
+        "name": "spacer",
+        "group": "20da5e3b8d0c0223",
+        "order": 14,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "425c1d7f808ed7c1",
+        "type": "ui_spacer",
+        "z": "f4b33934aafb48b0",
+        "name": "spacer",
+        "group": "20da5e3b8d0c0223",
+        "order": 15,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "44becdd930bc263a",
+        "type": "ui_spacer",
+        "z": "f4b33934aafb48b0",
+        "name": "spacer",
+        "group": "20da5e3b8d0c0223",
+        "order": 16,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "5087b88dbdea783f",
+        "type": "ui_spacer",
+        "z": "f4b33934aafb48b0",
+        "name": "spacer",
+        "group": "20da5e3b8d0c0223",
+        "order": 17,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "19d88439cb2a2240",
+        "type": "ui_spacer",
+        "z": "f4b33934aafb48b0",
+        "name": "spacer",
+        "group": "20da5e3b8d0c0223",
+        "order": 18,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "7d4cdfaed785da08",
+        "type": "ui_spacer",
+        "z": "f4b33934aafb48b0",
+        "name": "spacer",
+        "group": "20da5e3b8d0c0223",
+        "order": 19,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "e17b202b284a3ede",
+        "type": "ui_spacer",
+        "z": "f4b33934aafb48b0",
+        "name": "spacer",
+        "group": "20da5e3b8d0c0223",
+        "order": 20,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "c5c894d027c97df4",
+        "type": "ui_spacer",
+        "z": "f4b33934aafb48b0",
+        "name": "spacer",
+        "group": "20da5e3b8d0c0223",
+        "order": 21,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "115bfb398ed8d4c4",
+        "type": "inject",
+        "z": "0975a2b34062edd1",
+        "name": "LIGA",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 190,
+        "y": 160,
+        "wires": [
+            [
+                "2385b5ec74df5485"
+            ]
+        ]
+    },
+    {
+        "id": "27a57530d5e7def0",
+        "type": "inject",
+        "z": "0975a2b34062edd1",
+        "name": "DESLIGA",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "false",
+        "payloadType": "bool",
+        "x": 180,
+        "y": 240,
+        "wires": [
+            [
+                "2385b5ec74df5485"
+            ]
+        ]
+    },
+    {
+        "id": "2385b5ec74df5485",
+        "type": "arduino out",
+        "z": "0975a2b34062edd1",
+        "name": "LED",
+        "pin": "",
+        "state": "OUTPUT",
+        "arduino": "",
+        "x": 430,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "9a773587f9c8a7f4",
+        "type": "function",
+        "z": "2c5fc53c29a84621",
+        "name": "function 1",
+        "func": "var ldr1 = msg.payload[0] - 48;\nvar ldr2 = msg.payload[1] - 48;\nvar ldr3 = msg.payload[3] - 48;\nvar ldr4 = msg.payload[4] - 48;\nvar valor1 = (ldr1 * 1000) + (ldr2 * 100) + (ldr3 * 10) + ldr4;\nvalor1 = valor1 / 10;\nvar valor = { payload: valor1 };\nreturn [valor];",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 310,
+        "y": 220,
+        "wires": [
+            [
+                "e21feca6ed7dc3ec",
+                "d538be4b6d2e74c1",
+                "d271d905d2965f84"
+            ]
+        ]
+    },
+    {
+        "id": "d538be4b6d2e74c1",
+        "type": "debug",
+        "z": "2c5fc53c29a84621",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 530,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "e21feca6ed7dc3ec",
+        "type": "ui_gauge",
+        "z": "2c5fc53c29a84621",
+        "name": "Luminosidade",
+        "group": "16e39261e2fa859f",
+        "order": 5,
+        "width": 8,
+        "height": 6,
+        "gtype": "gage",
+        "title": "Nível de Luminosidade",
+        "label": "units",
+        "format": "{{value}}",
+        "min": "0",
+        "max": "1000",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 580,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "d271d905d2965f84",
+        "type": "ui_chart",
+        "z": "2c5fc53c29a84621",
+        "name": "",
+        "group": "dd1707d56da3a390",
+        "order": 6,
+        "width": 8,
+        "height": 6,
+        "label": "Gráfico Luminosidade x Tempo",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "500",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 630,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7c320d9100215854",
+        "type": "serial in",
+        "z": "2c5fc53c29a84621",
+        "name": "serial",
+        "serial": "6dc59499f7e1b1db",
+        "x": 150,
+        "y": 220,
+        "wires": [
+            [
+                "9a773587f9c8a7f4"
+            ]
+        ]
+    },
+    {
+        "id": "776da4f7.706a64",
+        "type": "ui_template",
+        "z": "35e1e32f.937e74",
+        "group": "21fb4565.85565a",
+        "name": "Bubble Chart (static)",
+        "order": 2,
+        "width": "8",
+        "height": "9",
+        "format": "<canvas id=\"bubble-static\" width=\"1\" height=\"1\" style=\"border:1px solid #000000;\"></canvas>\n\n<script>\nnew Chart(document.getElementById(\"bubble-static\"), {\n    type: 'bubble',\n    data: {\n      labels: \"label\",\n      datasets: [\n        {\n          label: \"Bases\",\n          backgroundColor: \"rgba(255, 216, 0, 1.0)\",\n          borderColor: \"#000\",\n          data: [\n          \t{ x: -85, y: 79,    r: 2 },\n          \t{ x: 385, y: -279,  r: 2 },\n          \t{x: 207,  y: -461,  r: 2 },\n          \t{x: 262,  y: -548,  r: 2 },\n          \t{x: 388,  y: -1320, r: 2 },\n          \t{x: 415,  y: 185,   r: 2 },\n          \t{x: 584,  y: -1100, r: 2 }\n          ]\n        }, {\n          label: [\"POI\"], \n          backgroundColor: \"rgba(72, 255, 70,1.0)\",\n          borderColor: \"#000\",\n          data: [\n          \t{x: 106, y: -381,  r: 2 },\n          \t{x: 174, y: -119,  r: 2 },\n          \t{x: 185, y: -780,  r: 2 },\n          \t{x: 244, y: -1113, r: 2 },\n          \t{x: 261, y: -1319, r: 2 },\n          \t{x: 296, y: -100,  r: 2 }\n\t\t  ]\n        }\n      ]\n    },\n    options: {\n        legend: {\n            display: true,\n            labels: {\n                fontColor: 'rgb(255, 99, 132)'\n            }\n        },\n      title: {\n        display: true,\n        text: 'Demo1: static Bubble chart'\n      }, scales: {\n        yAxes: [{ \n          scaleLabel: {\n            display: true,\n            labelString: \"yAxes\"\n          }\n        }],\n        xAxes: [{ \n          scaleLabel: {\n            display: true,\n            labelString: \"xAxes\"\n          }\n        }]\n      }\n    }\n});\n\n</script>\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "className": "",
+        "x": 180,
+        "y": 100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "51dd8974.23fe18",
+        "type": "ui_text",
+        "z": "35e1e32f.937e74",
+        "group": "21fb4565.85565a",
+        "order": 1,
+        "width": "8",
+        "height": "3",
+        "name": "demo 1 description",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "x": 510,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "cf71d781.a18048",
+        "type": "inject",
+        "z": "35e1e32f.937e74",
+        "name": "Description",
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "This demo creates a bubble chart showing how you could statically add the points in the ui_template node.<br><br> While this is not very useful, it is the basis of the dynamic charts in the other tabs. ",
+        "payloadType": "str",
+        "x": 150,
+        "y": 340,
+        "wires": [
+            [
+                "51dd8974.23fe18"
+            ]
+        ]
+    },
+    {
+        "id": "ddeb2adc.cfc13",
+        "type": "comment",
+        "z": "35e1e32f.937e74",
+        "name": "Static Bubble chart with 15 points per dataset",
+        "info": "",
+        "x": 230,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "ddfaa9da.2513b8",
+        "type": "debug",
+        "z": "5c66fca0.b4e21c",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "x": 470,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "d19083e3.c4e8f8",
+        "type": "debug",
+        "z": "5c66fca0.b4e21c",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "x": 470,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "a8d7b7c8.c00498",
+        "type": "function",
+        "z": "5c66fca0.b4e21c",
+        "name": "Build the datsets to be displayed",
+        "func": "// this is where you define the legend for \n// the datasets\nvar title = \"Demo2: dynamic random Bubble chart\";\nvar legend1 = \"legend1\";\nvar legend2 = \"legend2\";\n\n// variables to be used to \nvar i, x, y, r, data1, data2;\nvar data1 = '';\nvar data2 = '';\n\n// for dataset #1\n// this code generates between 3 and 25 random\n// x/y points each between -100 and +100\n// and a random size between 1 and 2\nvar data_items = getRndInteger(3,15);\n\nfor (i = 0; i < data_items; i++) {\n    x = getRndInteger(-100,100);\n    y = getRndInteger(-100,100);\n    r = getRndInteger(0,2);\n    data1 += \"{x: \"+x+\", y: \"+y+\", r: \"+r+\"},\";\n}\n// this line removes the last comma to end the dataset\ndata1 = data1.replace(/^(.*),(.*?)$/, '$1')\nmsg.payload = {\"data1\": data1};\n\n// for dataset #2\n// this code generates between 3 and 25 random\n// x/y points each between -100 and +100\n// and a random size between 1 and 2\n\n    data_items = getRndInteger(3,15);\n\nfor (i = 0; i < data_items; i++) {\n    x = getRndInteger(-100,100);\n    y = getRndInteger(-100,100);\n    r = getRndInteger(1,2);\n    data2 += \"{x: \"+x+\", y: \"+y+\", r: \"+r+\"},\";\n}\n// this line removes the last comma to end the dataset\ndata2 = data2.replace(/^(.*),(.*?)$/, '$1')\n\n// Now we build msg.payload\nmsg.payload = { \"title\"   : title,\n                \"legend1\" : legend1,\n                \"data1\"   : data1,\n                \"legend2\" : legend2,\n                \"data2\"   : data2};\nreturn msg;\n\n// this code gets a random interger\nfunction getRndInteger(min, max) {\n    return Math.floor(Math.random() * (max - min + 1) ) + min;\n}\n",
+        "outputs": 1,
+        "noerr": 4,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 220,
+        "y": 160,
+        "wires": [
+            [
+                "5662b8a0.f683a8",
+                "ea57d27b.488398"
+            ]
+        ]
+    },
+    {
+        "id": "5662b8a0.f683a8",
+        "type": "debug",
+        "z": "5c66fca0.b4e21c",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "x": 470,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "42741016.e5a2c8",
+        "type": "inject",
+        "z": "5c66fca0.b4e21c",
+        "name": "",
+        "repeat": "3",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "Inject every 3 seconds",
+        "payloadType": "str",
+        "x": 190,
+        "y": 100,
+        "wires": [
+            [
+                "a8d7b7c8.c00498"
+            ]
+        ]
+    },
+    {
+        "id": "ea57d27b.488398",
+        "type": "template",
+        "z": "5c66fca0.b4e21c",
+        "name": "Create the msg.template to use",
+        "field": "template",
+        "fieldType": "msg",
+        "format": "html",
+        "syntax": "mustache",
+        "template": "<canvas id=\"bubble-chart\" width=\"1\" height=\"1\" style=\"border:1px solid #000000;\"></canvas>\n\n<script>\nnew Chart(document.getElementById(\"bubble-chart\"), {\n    type: 'bubble',\n    data: {\n      labels: \"label\",\n      datasets: [\n        {\n          label: \"{{{payload.legend1}}}\",\n          backgroundColor: \"rgba(65, 72, 255, 1.0000)\",\n          borderColor: \"#000\",\n          data: [\n            {{{payload.data1}}}\n\n          ]\n        }, {\n          label: [\"{{{payload.legend2}}}\"], \n          backgroundColor: \"rgba(255, 45, 36, 1.0000)\",\n          borderColor: \"#000\",\n          data: [\n              {{{payload.data2}}}\n\t\t  ]\n        }\n      ]\n    },\n    options: {\n        legend: {\n            display: true,\n            labels: {\n                fontColor: 'rgb(255, 99, 132)'\n            }\n        },\n    title: {\n        display: true,\n        text: '{{{payload.title}}}'\n      }, scales: {\n        yAxes: [{ \n          scaleLabel: {\n            display: true,\n            labelString: \"yAxes\"\n          }\n        }],\n        xAxes: [{ \n          scaleLabel: {\n            display: true,\n            labelString: \"xAxes\"\n          }\n        }]\n      }\n    }\n});\n\n</script>\n",
+        "output": "str",
+        "x": 210,
+        "y": 220,
+        "wires": [
+            [
+                "ddfaa9da.2513b8",
+                "1d2b2d64.63418b"
+            ]
+        ]
+    },
+    {
+        "id": "3d389e03.8d368a",
+        "type": "comment",
+        "z": "5c66fca0.b4e21c",
+        "name": "Dynamic Bubble chart with 15 points per dataset",
+        "info": "",
+        "x": 240,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "a4efa622.e373a",
+        "type": "inject",
+        "z": "5c66fca0.b4e21c",
+        "name": "Description",
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "This demo creates a bubble chart showing how you could, in a 'function' node,  dynamically add points to the datasets sent to the chart. <br><br>It creates 15 random data points for each dataset and then sends the entire set of points at one time, waits 3 seconds and repeats.",
+        "payloadType": "str",
+        "x": 150,
+        "y": 340,
+        "wires": [
+            [
+                "115e414a.fe70ef"
+            ]
+        ]
+    },
+    {
+        "id": "1d2b2d64.63418b",
+        "type": "ui_template",
+        "z": "5c66fca0.b4e21c",
+        "group": "a1a4b9da.737a38",
+        "name": "Bubble (dynamic)",
+        "order": 2,
+        "width": "8",
+        "height": "9",
+        "format": "this will be ignored",
+        "storeOutMessages": false,
+        "fwdInMessages": true,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "className": "",
+        "x": 170,
+        "y": 280,
+        "wires": [
+            [
+                "d19083e3.c4e8f8"
+            ]
+        ]
+    },
+    {
+        "id": "115e414a.fe70ef",
+        "type": "ui_text",
+        "z": "5c66fca0.b4e21c",
+        "group": "a1a4b9da.737a38",
+        "order": 1,
+        "width": "8",
+        "height": "3",
+        "name": "demo 2 description",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "x": 510,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "675201b7.44678",
+        "type": "debug",
+        "z": "ed34b63.0ee70c8",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "x": 470,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "4b31a900.53d8e8",
+        "type": "debug",
+        "z": "ed34b63.0ee70c8",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "x": 470,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "7118e1f3.a55ad",
+        "type": "function",
+        "z": "ed34b63.0ee70c8",
+        "name": "Build two cumulating random datasets",
+        "func": "// this is where you define the legend for \n// the datasets\nvar title = \"Demo3: random growing Bubble chart\";\nvar legend1 = \"legend1\";\nvar legend2 = \"legend2\";\n\n// variables to be used to \nvar i, x, y, r, data1, data2;\n// initialise the counter to 0 if it doesn't exist already\nvar data1 = flow.get('data1')||'';\nvar data2 = flow.get('data2')||'';\n\nvar count = flow.get('count')||0;\ncount += 1;\nif (count > 15) {\n    count = 1;\n    data1 = '{x: 100,  y: 100,  r: 1},'; // Force the size of the\n    data2 = '{x: -100, y: -100, r: 1},'; // plot so it won't resize\n} \n// store the value back\nflow.set('count',count);\n// make it part of the outgoing msg object\nmsg.count = count;\n\n// for dataset #1\n// this code generates one x/y point \n// between -100 and +100 and a random \n//size between 1 and 10\n//node.warn(\"db1=\"+data1);\nx = getRndInteger(-100,100);\ny = getRndInteger(-100,100);\nr = getRndInteger(0,10);\ndata1 += \"{x: \"+x+\", y: \"+y+\", r: \"+r+\"},\";\n//node.warn(\"db2=\"+data1);\n// this line removes the last comma to end the dataset\ndata1 = data1.replace(/^(.*),(.*?)$/, '$1')\n\n// for dataset #2\n// this code generates one x/y point \n// between -100 and +100 and a random \n//size between 1 and 10\n\nx = getRndInteger(-100,100);\ny = getRndInteger(-100,100);\nr = getRndInteger(1,10);\ndata2 += \"{x: \"+x+\", y: \"+y+\", r: \"+r+\"},\";\n\n// this line removes the last comma to end the dataset\ndata2 = data2.replace(/^(.*),(.*?)$/, '$1')\n\n// Now we build msg.payload\nmsg.payload = { \"title\"   : title,\n                \"legend1\" : legend1,\n                \"data1\"   : data1,\n                \"legend2\" : legend2,\n                \"data2\"   : data2};\ndata1 += \",\";\ndata2 += \",\";\n\nflow.set([\"data1\", \"data2\"], [data1, data2]);\nreturn msg;\n\n// this code gets a random interger\nfunction getRndInteger(min, max) {\n    return Math.floor(Math.random() * (max - min + 1) ) + min;\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 230,
+        "y": 160,
+        "wires": [
+            [
+                "7ed7ca70.b0a8fc",
+                "aeee9b3a.3c13a"
+            ]
+        ]
+    },
+    {
+        "id": "7ed7ca70.b0a8fc",
+        "type": "debug",
+        "z": "ed34b63.0ee70c8",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "x": 470,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "52f5764.47eec88",
+        "type": "inject",
+        "z": "ed34b63.0ee70c8",
+        "name": "Inject every second",
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "str",
+        "x": 180,
+        "y": 100,
+        "wires": [
+            [
+                "7118e1f3.a55ad"
+            ]
+        ]
+    },
+    {
+        "id": "aeee9b3a.3c13a",
+        "type": "template",
+        "z": "ed34b63.0ee70c8",
+        "name": "Create the msg.template to use",
+        "field": "template",
+        "fieldType": "msg",
+        "format": "html",
+        "syntax": "mustache",
+        "template": "<canvas id=\"bubble-chart\" width=\"1\" height=\"1\" style=\"border:1px solid #000000;\"></canvas>\n\n<script>\nnew Chart(document.getElementById(\"bubble-chart\"), {\n    type: 'bubble',\n    data: {\n      labels: \"label\",\n      datasets: [\n        {\n          label: \"{{{payload.legend1}}}\",\n          backgroundColor: \"rgba(65, 72, 255, 1.0000)\",\n          borderColor: \"#000\",\n          data: [\n            {{{payload.data1}}}\n\n          ]\n        }, {\n          label: [\"{{{payload.legend2}}}\"], \n          backgroundColor: \"rgba(255, 45, 36, 1.0000)\",\n          borderColor: \"#000\",\n          data: [\n              {{{payload.data2}}}\n\t\t  ]\n        }\n      ]\n    },\n    options: {\n        animation: false,\n        legend: {\n            display: true,\n            labels: {\n                fontColor: 'rgb(255, 99, 132)'\n            }\n        },\n    title: {\n        display: true,\n        text: '{{{payload.title}}}'\n      }, scales: {\n        yAxes: [{ \n          scaleLabel: {\n            display: true,\n            labelString: \"yAxes\"\n          }\n        }],\n        xAxes: [{ \n          scaleLabel: {\n            display: true,\n            labelString: \"xAxes\"\n          }\n        }]\n      }\n    }\n});\n\n</script>\n",
+        "output": "str",
+        "x": 210,
+        "y": 220,
+        "wires": [
+            [
+                "675201b7.44678",
+                "90a482c4.75a6f"
+            ]
+        ]
+    },
+    {
+        "id": "806c0bc9.f33db",
+        "type": "comment",
+        "z": "ed34b63.0ee70c8",
+        "name": "Dynamic Bubble chart adding new points (up to 15)",
+        "info": "This demo creates a ",
+        "x": 250,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "90a482c4.75a6f",
+        "type": "ui_template",
+        "z": "ed34b63.0ee70c8",
+        "group": "ed68b86d.026b2",
+        "name": "Bubble (dynamic growing)",
+        "order": 2,
+        "width": "8",
+        "height": "9",
+        "format": "this will be ignored",
+        "storeOutMessages": false,
+        "fwdInMessages": true,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "className": "",
+        "x": 190,
+        "y": 280,
+        "wires": [
+            [
+                "4b31a900.53d8e8"
+            ]
+        ]
+    },
+    {
+        "id": "d9b38376.3718b",
+        "type": "inject",
+        "z": "ed34b63.0ee70c8",
+        "name": "Description",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "This demo creates a bubble chart showing how you could dynamically add points to the plot. It initially creates two points (100, 100 and -100, -100) to create a fixed size area for the plot.  <br><br> It then reiterates 15 times adding a point to each dataset and displaying the plot again. It also removes the animation so the points just appear on the plot.",
+        "payloadType": "str",
+        "x": 150,
+        "y": 340,
+        "wires": [
+            [
+                "467429fe.4d4f98"
+            ]
+        ]
+    },
+    {
+        "id": "467429fe.4d4f98",
+        "type": "ui_text",
+        "z": "ed34b63.0ee70c8",
+        "group": "ed68b86d.026b2",
+        "order": 1,
+        "width": "8",
+        "height": "3",
+        "name": "demo 3 description",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "x": 510,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "bcb6d4d2291a8c1f",
+        "type": "ui_text_input",
+        "z": "f4b33934aafb48b0",
+        "g": "1f0a02b2c6034031",
+        "name": "",
+        "label": "Entrada",
+        "tooltip": "",
+        "group": "20da5e3b8d0c0223",
+        "order": 1,
+        "width": 2,
+        "height": 1,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 120,
+        "y": 80,
+        "wires": [
+            [
+                "2cf3b8e743905631"
+            ]
+        ]
+    },
+    {
+        "id": "2cf3b8e743905631",
+        "type": "switch",
+        "z": "f4b33934aafb48b0",
+        "g": "1f0a02b2c6034031",
+        "name": "Switch",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "c",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "a",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "d",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "m",
+                "vt": "str"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 4,
+        "x": 270,
+        "y": 80,
+        "wires": [
+            [
+                "4ba6d3b11cf76b9c"
+            ],
+            [
+                "610ddbe265fa7869"
+            ],
+            [
+                "2f5f1c65a548ab47"
+            ],
+            [
+                "c19485e8506f3926",
+                "532096ac0259dee2",
+                "60795a60515f9052",
+                "50f20671c1579c38"
+            ]
+        ]
+    },
+    {
+        "id": "610ddbe265fa7869",
+        "type": "ui_toast",
+        "z": "f4b33934aafb48b0",
+        "g": "1f0a02b2c6034031",
+        "position": "top right",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "Peltier ligado",
+        "name": "Peltier",
+        "x": 490,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "c19485e8506f3926",
+        "type": "ui_toast",
+        "z": "f4b33934aafb48b0",
+        "g": "1f0a02b2c6034031",
+        "position": "top right",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "Fazendo medição",
+        "name": "Medir",
+        "x": 450,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "880437a8c535b495",
+        "type": "function",
+        "z": "f4b33934aafb48b0",
+        "g": "1f0a02b2c6034031",
+        "name": "function",
+        "func": "var p1 = msg.payload[0] - 48;\nvar p2 = msg.payload[1] - 48;\nvar p3 = msg.payload[3] - 48;\nvar p4 = msg.payload[4] - 48;\nvar valor1 = (p1 * 1000) + (p2 * 100) + (p3 * 10) + p4;\nvalor1 = valor1 / 10;\nmsg.payload = { payload: valor1 };\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 300,
+        "wires": [
+            [
+                "422e1a0a5d119cb4"
+            ]
+        ]
+    },
+    {
+        "id": "422e1a0a5d119cb4",
+        "type": "change",
+        "z": "f4b33934aafb48b0",
+        "g": "1f0a02b2c6034031",
+        "name": "pressao",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.pressao",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 700,
+        "y": 300,
+        "wires": [
+            [
+                "50f20671c1579c38"
+            ]
+        ]
+    },
+    {
+        "id": "532096ac0259dee2",
+        "type": "serial request",
+        "z": "f4b33934aafb48b0",
+        "g": "1f0a02b2c6034031",
+        "name": "Pressão",
+        "serial": "6dc59499f7e1b1db",
+        "x": 460,
+        "y": 300,
+        "wires": [
+            [
+                "880437a8c535b495"
+            ]
+        ]
+    },
+    {
+        "id": "4ba6d3b11cf76b9c",
+        "type": "ui_toast",
+        "z": "f4b33934aafb48b0",
+        "g": "1f0a02b2c6034031",
+        "position": "top right",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "Arduino conectado",
+        "name": "Arduino on",
+        "x": 470,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "60795a60515f9052",
+        "type": "serial out",
+        "z": "f4b33934aafb48b0",
+        "g": "1f0a02b2c6034031",
+        "name": "Comando",
+        "serial": "6dc59499f7e1b1db",
+        "x": 460,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "2f5f1c65a548ab47",
+        "type": "ui_toast",
+        "z": "f4b33934aafb48b0",
+        "g": "1f0a02b2c6034031",
+        "position": "top right",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "Arduino desconectado",
+        "name": "Arduino off",
+        "x": 550,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "01c34b18eeda0461",
+        "type": "debug",
+        "z": "f4b33934aafb48b0",
+        "g": "1f0a02b2c6034031",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1190,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "cf0d39f54a226c58",
+        "type": "debug",
+        "z": "f4b33934aafb48b0",
+        "g": "1f0a02b2c6034031",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "x": 1130,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "50f20671c1579c38",
+        "type": "function",
+        "z": "f4b33934aafb48b0",
+        "g": "1f0a02b2c6034031",
+        "name": "Build two cumulating random datasets",
+        "func": "// this is where you define the legend for \n// the datasets\nvar title = \"Pressão x Volume\";\n\n// variables to be used to \nvar i, x, y, r, data1, data2, pressao, pressao_teste, volume;\n// initialise the counter to 0 if it doesn't exist already\nvar data1 = flow.get('data1') || '';\nvar data2 = flow.get('data2') || '';\n\npressao = msg.payload.pressao;\npressao_teste = msg.payload.pressao_teste;\nvolume = msg.payload.volume;\n\nvar count = flow.get('count') || 0;\ncount += 1;\nif (count > 15) {\n    count = 1;\n    data1 = '{x: 0,  y: 10,  r: 1},'; // Force the size of the\n    data2 = '{x: 10, y: 0, r: 1},'; // plot so it won't resize\n}\n// store the value back\nflow.set('count', count);\n// make it part of the outgoing msg object\nmsg.count = count;\n\n// for dataset #1\n// this code generates one x/y point \n// between -100 and +100 and a random \n//size between 1 and 10\n//node.warn(\"db1=\"+data1);\n\nx = volume;\ny = 1;\nr = 5;\ndata1 += \"{x: \" + x + \", y: \" + y + \", r: \" + r + \"},\";\n//node.warn(\"db2=\"+data1);\n// this line removes the last comma to end the dataset\ndata1 = data1.replace(/^(.*),(.*?)$/, '$1')\n\n// for dataset #2\n// this code generates one x/y point \n// between -100 and +100 and a random \n//size between 1 and 10\n\nx = pressao_teste;\ny = pressao_teste;\nr = pressao_teste;\ndata2 += \"{x: \" + x + \", y: \" + y + \", r: \" + r + \"},\";\n\n// this line removes the last comma to end the dataset\ndata2 = data2.replace(/^(.*),(.*?)$/, '$1')\n\n// Now we build msg.payload\nmsg.payload = {\n    \"title\": title,\n    \"data1\": data1,\n    \"data2\": data2\n};\ndata1 += \",\";\ndata2 += \",\";\n\nflow.set([\"data1\", \"data2\"], [data1, data2]);\nreturn msg;\n\n// this code gets a random interger\nfunction getRndInteger(min, max) {\n    return Math.floor(Math.random() * (max - min + 1)) + min;\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 970,
+        "y": 300,
+        "wires": [
+            [
+                "25bee730a89bea37",
+                "f8d3c8b9e9bc68c8"
+            ]
+        ]
+    },
+    {
+        "id": "25bee730a89bea37",
+        "type": "debug",
+        "z": "f4b33934aafb48b0",
+        "g": "1f0a02b2c6034031",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1210,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "f8d3c8b9e9bc68c8",
+        "type": "template",
+        "z": "f4b33934aafb48b0",
+        "g": "1f0a02b2c6034031",
+        "name": "Create the msg.template to use",
+        "field": "template",
+        "fieldType": "msg",
+        "format": "html",
+        "syntax": "mustache",
+        "template": "<canvas id=\"bubble-chart\" width=\"1\" height=\"1\" style=\"border:1px solid #000000;\"></canvas>\n\n<script>\n  new Chart(document.getElementById(\"bubble-chart\"), {\n    type: 'bubble',\n    data: {\n      labels: \"label\",\n      datasets: [\n        {\n          label: \"{{{payload.legend1}}}\",\n          backgroundColor: \"rgba(65, 72, 255, 1.0000)\",\n          borderColor: \"#000\",\n          data: [\n            {{{payload.data1}}}\n\n          ]\n        }, {\n        label: [\"{{{payload.legend2}}}\"],\n        backgroundColor: \"rgba(255, 45, 36, 1.0000)\",\n        borderColor: \"#000\",\n        data: [\n        {{{payload.data2}}}\n        ]\n        }\n      ]\n    },\n    options: {\n        animation: false,\n        legend: {\n            display: false,\n            labels: {\n                fontColor: 'rgb(255, 99, 132)'\n            }\n        },\n    title: {\n        display: true,\n        text: '{{{payload.title}}}'\n      }, scales: {\n        yAxes: [{ \n          scaleLabel: {\n            display: true,\n            labelString: \"Pressão (HPA)\"\n          }\n        }],\n        xAxes: [{ \n          scaleLabel: {\n            display: true,\n            labelString: \"Volume (mL)\"\n          }\n        }]\n      }\n    }\n});\n\n</script>",
+        "output": "str",
+        "x": 950,
+        "y": 360,
+        "wires": [
+            [
+                "01c34b18eeda0461",
+                "5d81aaffabcd378a"
+            ]
+        ]
+    },
+    {
+        "id": "5d81aaffabcd378a",
+        "type": "ui_template",
+        "z": "f4b33934aafb48b0",
+        "g": "1f0a02b2c6034031",
+        "group": "20da5e3b8d0c0223",
+        "name": "Bubble (dynamic growing)",
+        "order": 3,
+        "width": 8,
+        "height": 9,
+        "format": "",
+        "storeOutMessages": false,
+        "fwdInMessages": true,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "className": "",
+        "x": 930,
+        "y": 420,
+        "wires": [
+            [
+                "cf0d39f54a226c58"
+            ]
+        ]
+    },
+    {
+        "id": "d2b0a01ec7fd05aa",
+        "type": "remote-access",
+        "z": "f4b33934aafb48b0",
+        "g": "1f0a02b2c6034031",
+        "confignode": "95bb7e1c94cf668c",
+        "name": "",
+        "verbose": true,
+        "x": 140,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "70ce53d8d1b81b33",
+        "type": "ui_numeric",
+        "z": "f4b33934aafb48b0",
+        "name": "",
+        "label": "Volume",
+        "tooltip": "",
+        "group": "20da5e3b8d0c0223",
+        "order": 7,
+        "width": 2,
+        "height": 1,
+        "wrap": false,
+        "passthru": true,
+        "topic": "payload",
+        "topicType": "msg",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "step": 1,
+        "className": "",
+        "x": 800,
+        "y": 220,
+        "wires": [
+            [
+                "9e41f773dcd5778b"
+            ]
+        ]
+    },
+    {
+        "id": "9e41f773dcd5778b",
+        "type": "change",
+        "z": "f4b33934aafb48b0",
+        "g": "1f0a02b2c6034031",
+        "name": "volume",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.volume",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 920,
+        "y": 220,
+        "wires": [
+            [
+                "50f20671c1579c38"
+            ]
+        ]
+    },
+    {
+        "id": "7c206088ceb8f30d",
+        "type": "debug",
+        "z": "2a3cd3ffbc077fc0",
+        "d": true,
+        "g": "3dbfab26abe327ac",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 910,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "d4217bae8f95c23e",
+        "type": "debug",
+        "z": "2a3cd3ffbc077fc0",
+        "d": true,
+        "g": "3dbfab26abe327ac",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "x": 910,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "eebd85a7c61a79bd",
+        "type": "function",
+        "z": "2a3cd3ffbc077fc0",
+        "d": true,
+        "g": "3dbfab26abe327ac",
+        "name": "Build two cumulating random datasets",
+        "func": "// this is where you define the legend for \n// the datasets\nvar title = \"Pressão x Volume\";\n\n// variables to be used to \nvar i, x, y, r, data1, data2, pressao, pressao_teste, volume;\n// initialise the counter to 0 if it doesn't exist already\nvar data1 = flow.get('data1') || '';\nvar data2 = flow.get('data2') || '';\n\npressao = msg.payload.pressao;\npressao_teste = msg.payload.pressao_teste;\nvolume = msg.payload.volume;\n\nvar count = flow.get('count') || 0;\ncount += 1;\nif (count > 15) {\n    count = 1;\n    data1 = '{x: 0,  y: 10,  r: 1},'; // Force the size of the\n    data2 = '{x: 10, y: 0, r: 1},'; // plot so it won't resize\n}\n// store the value back\nflow.set('count', count);\n// make it part of the outgoing msg object\nmsg.count = count;\n\n// for dataset #1\n// this code generates one x/y point \n// between -100 and +100 and a random \n//size between 1 and 10\n//node.warn(\"db1=\"+data1);\nx = volume;\ny = 1;\nr = 5;\ndata1 += \"{x: \" + x + \", y: \" + y + \", r: \" + r + \"},\";\n//node.warn(\"db2=\"+data1);\n// this line removes the last comma to end the dataset\ndata1 = data1.replace(/^(.*),(.*?)$/, '$1')\n\n// for dataset #2\n// this code generates one x/y point \n// between -100 and +100 and a random \n//size between 1 and 10\n\nx = volume;\ny = pressao;\nr = 5;\ndata2 += \"{x: \" + x + \", y: \" + y + \", r: \" + r + \"},\";\n\n// this line removes the last comma to end the dataset\ndata2 = data2.replace(/^(.*),(.*?)$/, '$1')\n\n// Now we build msg.payload\nmsg.payload = {\n    \"title\": title,\n    \"data1\": data1,\n    \"data2\": data2\n};\ndata1 += \",\";\ndata2 += \",\";\n\nflow.set([\"data1\", \"data2\"], [data1, data2]);\nreturn msg;\n\n// this code gets a random interger\nfunction getRndInteger(min, max) {\n    return Math.floor(Math.random() * (max - min + 1)) + min;\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 670,
+        "y": 220,
+        "wires": [
+            [
+                "88476bf5cc6a71dc",
+                "46de5501c102dbd5"
+            ]
+        ]
+    },
+    {
+        "id": "88476bf5cc6a71dc",
+        "type": "debug",
+        "z": "2a3cd3ffbc077fc0",
+        "d": true,
+        "g": "3dbfab26abe327ac",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 910,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "732fcb6b92c6670e",
+        "type": "inject",
+        "z": "2a3cd3ffbc077fc0",
+        "d": true,
+        "g": "3dbfab26abe327ac",
+        "name": "Inject every second",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "str",
+        "x": 620,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "46de5501c102dbd5",
+        "type": "template",
+        "z": "2a3cd3ffbc077fc0",
+        "d": true,
+        "g": "3dbfab26abe327ac",
+        "name": "Create the msg.template to use",
+        "field": "template",
+        "fieldType": "msg",
+        "format": "html",
+        "syntax": "mustache",
+        "template": "<canvas id=\"bubble-chart\" width=\"1\" height=\"1\" style=\"border:1px solid #000000;\"></canvas>\n\n<script>\n  new Chart(document.getElementById(\"bubble-chart\"), {\n    type: 'bubble',\n    data: {\n      labels: \"label\",\n      datasets: [\n        {\n          label: \"{{{payload.legend1}}}\",\n          backgroundColor: \"rgba(65, 72, 255, 1.0000)\",\n          borderColor: \"#000\",\n          data: [\n            {{{payload.data1}}}\n\n          ]\n        }, {\n        label: [\"{{{payload.legend2}}}\"],\n        backgroundColor: \"rgba(255, 45, 36, 1.0000)\",\n        borderColor: \"#000\",\n        data: [\n        {{{payload.data2}}}\n        ]\n        }\n      ]\n    },\n    options: {\n        animation: false,\n        legend: {\n            display: false,\n            labels: {\n                fontColor: 'rgb(255, 99, 132)'\n            }\n        },\n    title: {\n        display: true,\n        text: '{{{payload.title}}}'\n      }, scales: {\n        yAxes: [{ \n          scaleLabel: {\n            display: true,\n            labelString: \"Pressão (HPA)\"\n          }\n        }],\n        xAxes: [{ \n          scaleLabel: {\n            display: true,\n            labelString: \"Volume (mL)\"\n          }\n        }]\n      }\n    }\n});\n\n</script>",
+        "output": "str",
+        "x": 650,
+        "y": 280,
+        "wires": [
+            [
+                "7c206088ceb8f30d",
+                "817e7b683c32aece"
+            ]
+        ]
+    },
+    {
+        "id": "817e7b683c32aece",
+        "type": "ui_template",
+        "z": "2a3cd3ffbc077fc0",
+        "d": true,
+        "g": "3dbfab26abe327ac",
+        "group": "d45cd91b99a171dc",
+        "name": "Bubble (dynamic growing)",
+        "order": 5,
+        "width": 9,
+        "height": 10,
+        "format": "",
+        "storeOutMessages": false,
+        "fwdInMessages": true,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "className": "",
+        "x": 630,
+        "y": 340,
+        "wires": [
+            [
+                "d4217bae8f95c23e"
+            ]
+        ]
+    },
+    {
+        "id": "ba4e55d55ab86f6a",
+        "type": "ui_numeric",
+        "z": "2a3cd3ffbc077fc0",
+        "d": true,
+        "g": "3dbfab26abe327ac",
+        "name": "",
+        "label": "Volume",
+        "tooltip": "",
+        "group": "d45cd91b99a171dc",
+        "order": 1,
+        "width": 2,
+        "height": 1,
+        "wrap": false,
+        "passthru": true,
+        "topic": "payload",
+        "topicType": "msg",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "step": 1,
+        "className": "",
+        "x": 200,
+        "y": 220,
+        "wires": [
+            [
+                "65c732937ad560e7"
+            ]
+        ]
+    },
+    {
+        "id": "65c732937ad560e7",
+        "type": "change",
+        "z": "2a3cd3ffbc077fc0",
+        "d": true,
+        "g": "3dbfab26abe327ac",
+        "name": "volume",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.volume",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 320,
+        "y": 220,
+        "wires": [
+            [
+                "eebd85a7c61a79bd"
+            ]
+        ]
+    },
+    {
+        "id": "db408e6b74063d0e",
+        "type": "ui_numeric",
+        "z": "2a3cd3ffbc077fc0",
+        "d": true,
+        "g": "3dbfab26abe327ac",
+        "name": "",
+        "label": "Pressão_2",
+        "tooltip": "",
+        "group": "d45cd91b99a171dc",
+        "order": 3,
+        "width": 2,
+        "height": 1,
+        "wrap": false,
+        "passthru": true,
+        "topic": "payload",
+        "topicType": "msg",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "step": 1,
+        "className": "",
+        "x": 190,
+        "y": 280,
+        "wires": [
+            [
+                "1b0a136d4af41e67"
+            ]
+        ]
+    },
+    {
+        "id": "1b0a136d4af41e67",
+        "type": "change",
+        "z": "2a3cd3ffbc077fc0",
+        "d": true,
+        "g": "3dbfab26abe327ac",
+        "name": "pressao2",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.pressao_teste",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 320,
+        "y": 280,
+        "wires": [
+            [
+                "eebd85a7c61a79bd"
+            ]
+        ]
+    },
+    {
+        "id": "7472afc9fa263cb9",
+        "type": "serial in",
+        "z": "2a3cd3ffbc077fc0",
+        "d": true,
+        "g": "3dbfab26abe327ac",
+        "name": "serial",
+        "serial": "6dc59499f7e1b1db",
+        "x": 90,
+        "y": 140,
+        "wires": [
+            [
+                "2c1b92616b9b54eb"
+            ]
+        ]
+    },
+    {
+        "id": "2c1b92616b9b54eb",
+        "type": "function",
+        "z": "2a3cd3ffbc077fc0",
+        "d": true,
+        "g": "3dbfab26abe327ac",
+        "name": "function",
+        "func": "var p1 = msg.payload[0] - 48;\nvar p2 = msg.payload[1] - 48;\nvar p3 = msg.payload[3] - 48;\nvar p4 = msg.payload[4] - 48;\nvar valor1 = (p1 * 1000) + (p2 * 100) + (p3 * 10) + p4;\nvalor1 = valor1 / 10;\nmsg.payload = { payload: valor1 };\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 200,
+        "y": 140,
+        "wires": [
+            [
+                "15f03dab9528dc28",
+                "4c6f41338fc605d1"
+            ]
+        ]
+    },
+    {
+        "id": "15f03dab9528dc28",
+        "type": "debug",
+        "z": "2a3cd3ffbc077fc0",
+        "d": true,
+        "g": "3dbfab26abe327ac",
+        "name": "debug",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 350,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "4c6f41338fc605d1",
+        "type": "change",
+        "z": "2a3cd3ffbc077fc0",
+        "d": true,
+        "g": "3dbfab26abe327ac",
+        "name": "pressao",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.pressao",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 320,
+        "y": 140,
+        "wires": [
+            [
+                "eebd85a7c61a79bd"
+            ]
+        ]
+    }
+]
